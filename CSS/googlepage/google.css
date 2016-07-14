@@ -1,6 +1,73 @@
+nav,
+.container,
+.button-container{
+	border: 1px solid black;
+}
 nav{
-	height:100px;
+	height:60px;
 	display:flex;
 	justify-content: flex-end;
 	align-items: center;
+}
+
+section{
+
+}
+
+.container {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo-container img{
+	display: block;
+	width:300px;
+	margin-left: auto;
+	margin-right: auto;
+	height:auto;
+}
+
+.logo-container{
+	margin-top: 150px;
+	display: block;
+}
+
+.search-bar input{
+	display: block;
+	width:500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	height:30px
+}
+.button-container{
+	display: block;
+	width:250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.button-container button:last-child{
+	float:right;
+}
+
+/*move the second button to the right to cnetralize buttons*/
+.button-container button{
+	padding: 10px 12px;
+	border: none;
+	background-color: #eee;
+	opacity: 0.7;
+	border-radius:3px;
+	border: 1px solid #bbb;
+}
+.button-container button:hover{
+	opacity: 1;
+	background-color: #ccc;
+
+}
+.button-container h5{
+	font-style: oblique;
+	font-weight: bold;
+
 }
