@@ -1,6 +1,9 @@
 nav,
 .container,
-.button-container{
+.button-container,
+.left-bar,
+.right-bar,
+footer{
 	border: 1px solid black;
 }
 nav{
@@ -8,6 +11,10 @@ nav{
 	display:flex;
 	justify-content: flex-end;
 	align-items: center;
+}
+
+nav a, div{
+	padding: 10px 15px;
 }
 
 section{
@@ -69,5 +76,43 @@ section{
 .button-container h5{
 	font-style: oblique;
 	font-weight: bold;
+}
 
+footer{
+	height:40px;
+	display:flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	background-color: #eee;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #eee;
+	opacity: 0.7;
+	border: 1px solid #bbb;
+}
+
+.left-bar{
+	display: block;
+	width:300px;
+	position: absolute;
+	left:0;
+	bottom:1px;
+	text-align: center;
+}
+
+.right-bar{
+	display: block;
+	width:300px;
+	position: absolute;
+	right:0;
+	bottom:1px;
+	text-align: center;
+}
+
+footer a{
+	padding:10px 15px;
+	font-weight: 300;
+	font-style: normal;
 }
