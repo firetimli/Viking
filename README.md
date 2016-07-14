@@ -1,9 +1,3 @@
-//This is a pseudocode example
-
-code>
-
-PROGRAM GrilledCheseSandwich
-
-
-
-</code>
+#Viking
+Viking code school projects related to HTML and CSS <br />
+- *[Google copy](https://github.com/firetimli/Viking/blob/master/CSS/googlepage/google.html)*
